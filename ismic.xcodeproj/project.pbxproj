@@ -7,14 +7,20 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */; };
 		83D6BA911EF56E9800F178B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BA901EF56E9800F178B4 /* AppDelegate.swift */; };
 		83D6BA931EF56E9800F178B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BA921EF56E9800F178B4 /* ViewController.swift */; };
 		83D6BA961EF56E9800F178B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA941EF56E9800F178B4 /* Main.storyboard */; };
 		83D6BA981EF56E9800F178B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA971EF56E9800F178B4 /* Assets.xcassets */; };
 		83D6BA9B1EF56E9800F178B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA991EF56E9800F178B4 /* LaunchScreen.storyboard */; };
+		83D6BAA31EF56F4A00F178B4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BAA21EF56F4A00F178B4 /* HomeViewController.swift */; };
+		83D6BAA51EF56F5900F178B4 /* PrayerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BAA41EF56F5900F178B4 /* PrayerViewController.swift */; };
+		83D6BAA71EF56F6800F178B4 /* ResourceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */; };
+		83D6BAA91EF5706900F178B4 /* NewsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		83D6BA8D1EF56E9800F178B4 /* ismic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ismic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6BA901EF56E9800F178B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		83D6BA921EF56E9800F178B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +28,10 @@
 		83D6BA971EF56E9800F178B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D6BA9A1EF56E9800F178B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		83D6BA9C1EF56E9800F178B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		83D6BAA21EF56F4A00F178B4 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		83D6BAA41EF56F5900F178B4 /* PrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
+		83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
+		83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +70,11 @@
 				83D6BA971EF56E9800F178B4 /* Assets.xcassets */,
 				83D6BA991EF56E9800F178B4 /* LaunchScreen.storyboard */,
 				83D6BA9C1EF56E9800F178B4 /* Info.plist */,
+				832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */,
+				83D6BAA21EF56F4A00F178B4 /* HomeViewController.swift */,
+				83D6BAA41EF56F5900F178B4 /* PrayerViewController.swift */,
+				83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */,
+				83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */,
 			);
 			path = ismic;
 			sourceTree = "<group>";
@@ -124,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				83D6BA9B1EF56E9800F178B4 /* LaunchScreen.storyboard in Resources */,
+				832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */,
 				83D6BA981EF56E9800F178B4 /* Assets.xcassets in Resources */,
 				83D6BA961EF56E9800F178B4 /* Main.storyboard in Resources */,
 			);
@@ -136,8 +152,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83D6BAA71EF56F6800F178B4 /* ResourceViewController.swift in Sources */,
+				83D6BAA91EF5706900F178B4 /* NewsCollectionViewCell.swift in Sources */,
 				83D6BA931EF56E9800F178B4 /* ViewController.swift in Sources */,
 				83D6BA911EF56E9800F178B4 /* AppDelegate.swift in Sources */,
+				83D6BAA31EF56F4A00F178B4 /* HomeViewController.swift in Sources */,
+				83D6BAA51EF56F5900F178B4 /* PrayerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +319,7 @@
 				83D6BAA11EF56E9800F178B4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
