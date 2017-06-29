@@ -7,9 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0BF22B85F2FC17A1E46EA94A /* libPods-ismic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */; };
+		8310A1921EFAA563004DA243 /* ResourceParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */; };
 		832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */; };
+		834A85A81EF9467700293401 /* TestimonyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */; };
+		834A85AE1EF95FBD00293401 /* Testi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AA1EF95FBD00293401 /* Testi.swift */; };
+		834A85AF1EF95FBD00293401 /* TestiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */; };
+		834A85B01EF95FBD00293401 /* TestiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AC1EF95FBD00293401 /* TestiTableViewCell.swift */; };
+		834A85B11EF95FBD00293401 /* TestiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AD1EF95FBD00293401 /* TestiTableViewController.swift */; };
+		836D571E1EF5812600C4355D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D571D1EF5812600C4355D /* User.swift */; };
+		836D57201EF5987000C4355D /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D571F1EF5987000C4355D /* NewsDetailViewController.swift */; };
+		83BC379F1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC379E1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift */; };
+		83BC37A21EF5F94100BD5367 /* Testimony.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37A11EF5F94100BD5367 /* Testimony.swift */; };
+		83BC37A61EF606A900BD5367 /* News.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37A51EF606A900BD5367 /* News.swift */; };
+		83BC37A81EF606E100BD5367 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37A71EF606E100BD5367 /* NewsTableViewController.swift */; };
+		83BC37AA1EF6073D00BD5367 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37A91EF6073D00BD5367 /* NewsTableViewCell.swift */; };
+		83BC37AC1EF608A200BD5367 /* DetailNewsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37AB1EF608A200BD5367 /* DetailNewsViewController.swift */; };
+		83BC37B71EF6229F00BD5367 /* PrayerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37B61EF6229F00BD5367 /* PrayerTableViewController.swift */; };
+		83BC37BA1EF6230A00BD5367 /* PrayerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37B91EF6230A00BD5367 /* PrayerTableViewCell.swift */; };
+		83BC37BC1EF6231600BD5367 /* Prayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37BB1EF6231600BD5367 /* Prayer.swift */; };
+		83BC37C01EF633C200BD5367 /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37BF1EF633C200BD5367 /* SWRevealViewController.m */; };
+		83BC37CC1EF6413000BD5367 /* TabySegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37CA1EF6413000BD5367 /* TabySegmentedControl.swift */; };
+		83BC37CD1EF6413000BD5367 /* ParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37CB1EF6413000BD5367 /* ParentViewController.swift */; };
+		83BC37DB1EF67E4F00BD5367 /* DevotionalTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37DA1EF67E4F00BD5367 /* DevotionalTableViewCell.swift */; };
+		83BC37DF1EF67E6F00BD5367 /* Devotion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37DE1EF67E6F00BD5367 /* Devotion.swift */; };
+		83BC37E11EF6873C00BD5367 /* DetailDevotionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E01EF6873C00BD5367 /* DetailDevotionalViewController.swift */; };
+		83BC37E31EF690E000BD5367 /* DevotionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E21EF690E000BD5367 /* DevotionTableViewController.swift */; };
+		83BC37E51EF6939000BD5367 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */; };
+		83BC38EA1EF6BE1200BD5367 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC38E91EF6BE1200BD5367 /* oneViewController.swift */; };
+		83BC38EC1EF6BE1F00BD5367 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */; };
 		83D6BA911EF56E9800F178B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BA901EF56E9800F178B4 /* AppDelegate.swift */; };
-		83D6BA931EF56E9800F178B4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BA921EF56E9800F178B4 /* ViewController.swift */; };
 		83D6BA961EF56E9800F178B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA941EF56E9800F178B4 /* Main.storyboard */; };
 		83D6BA981EF56E9800F178B4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA971EF56E9800F178B4 /* Assets.xcassets */; };
 		83D6BA9B1EF56E9800F178B4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA991EF56E9800F178B4 /* LaunchScreen.storyboard */; };
@@ -20,10 +47,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		667CAFB458FEE5F6DED6520F /* Pods-ismic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ismic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ismic/Pods-ismic.release.xcconfig"; sourceTree = "<group>"; };
+		8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceParentViewController.swift; sourceTree = "<group>"; };
 		832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonyDetailViewController.swift; sourceTree = "<group>"; };
+		834A85AA1EF95FBD00293401 /* Testi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testi.swift; sourceTree = "<group>"; };
+		834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiDetailViewController.swift; sourceTree = "<group>"; };
+		834A85AC1EF95FBD00293401 /* TestiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiTableViewCell.swift; sourceTree = "<group>"; };
+		834A85AD1EF95FBD00293401 /* TestiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiTableViewController.swift; sourceTree = "<group>"; };
+		836D571D1EF5812600C4355D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		836D571F1EF5987000C4355D /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
+		83BC379E1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonyCollectionViewCell.swift; sourceTree = "<group>"; };
+		83BC37A11EF5F94100BD5367 /* Testimony.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testimony.swift; sourceTree = "<group>"; };
+		83BC37A51EF606A900BD5367 /* News.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = News.swift; sourceTree = "<group>"; };
+		83BC37A71EF606E100BD5367 /* NewsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
+		83BC37A91EF6073D00BD5367 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		83BC37AB1EF608A200BD5367 /* DetailNewsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailNewsViewController.swift; sourceTree = "<group>"; };
+		83BC37B61EF6229F00BD5367 /* PrayerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewController.swift; sourceTree = "<group>"; };
+		83BC37B91EF6230A00BD5367 /* PrayerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerTableViewCell.swift; sourceTree = "<group>"; };
+		83BC37BB1EF6231600BD5367 /* Prayer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Prayer.swift; sourceTree = "<group>"; };
+		83BC37BD1EF633C100BD5367 /* ismic-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ismic-Bridging-Header.h"; sourceTree = "<group>"; };
+		83BC37BE1EF633C200BD5367 /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
+		83BC37BF1EF633C200BD5367 /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		83BC37CA1EF6413000BD5367 /* TabySegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabySegmentedControl.swift; sourceTree = "<group>"; };
+		83BC37CB1EF6413000BD5367 /* ParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ParentViewController.swift; sourceTree = "<group>"; };
+		83BC37DA1EF67E4F00BD5367 /* DevotionalTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevotionalTableViewCell.swift; sourceTree = "<group>"; };
+		83BC37DE1EF67E6F00BD5367 /* Devotion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Devotion.swift; sourceTree = "<group>"; };
+		83BC37E01EF6873C00BD5367 /* DetailDevotionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDevotionalViewController.swift; sourceTree = "<group>"; };
+		83BC37E21EF690E000BD5367 /* DevotionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevotionTableViewController.swift; sourceTree = "<group>"; };
+		83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
+		83BC38E91EF6BE1200BD5367 /* oneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
+		83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
 		83D6BA8D1EF56E9800F178B4 /* ismic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ismic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6BA901EF56E9800F178B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		83D6BA921EF56E9800F178B4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		83D6BA951EF56E9800F178B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		83D6BA971EF56E9800F178B4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		83D6BA9A1EF56E9800F178B4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -32,6 +88,8 @@
 		83D6BAA41EF56F5900F178B4 /* PrayerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PrayerViewController.swift; sourceTree = "<group>"; };
 		83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
+		85254B0C8B78B5554C580C11 /* Pods-ismic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ismic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ismic/Pods-ismic.debug.xcconfig"; sourceTree = "<group>"; };
+		CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ismic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -39,17 +97,127 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0BF22B85F2FC17A1E46EA94A /* libPods-ismic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		26DD8A9536CDF7C3D0DFF42F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				85254B0C8B78B5554C580C11 /* Pods-ismic.debug.xcconfig */,
+				667CAFB458FEE5F6DED6520F /* Pods-ismic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		61FFF73374807C39D0F7A5B8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8310A18F1EFAA4FB004DA243 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		834A85A91EF95FA100293401 /* TestimonySide */ = {
+			isa = PBXGroup;
+			children = (
+				834A85AA1EF95FBD00293401 /* Testi.swift */,
+				834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */,
+				834A85AC1EF95FBD00293401 /* TestiTableViewCell.swift */,
+				834A85AD1EF95FBD00293401 /* TestiTableViewController.swift */,
+			);
+			name = TestimonySide;
+			sourceTree = "<group>";
+		};
+		836D571C1EF5811600C4355D /* News */ = {
+			isa = PBXGroup;
+			children = (
+				83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */,
+				836D571D1EF5812600C4355D /* User.swift */,
+				836D571F1EF5987000C4355D /* NewsDetailViewController.swift */,
+			);
+			name = News;
+			sourceTree = "<group>";
+		};
+		83BC37A01EF5F2AA00BD5367 /* Testimony */ = {
+			isa = PBXGroup;
+			children = (
+				83BC379E1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift */,
+				83BC37A11EF5F94100BD5367 /* Testimony.swift */,
+				834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */,
+			);
+			name = Testimony;
+			sourceTree = "<group>";
+		};
+		83BC37A31EF605AB00BD5367 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				83D6BAA21EF56F4A00F178B4 /* HomeViewController.swift */,
+				83BC37A01EF5F2AA00BD5367 /* Testimony */,
+				836D571C1EF5811600C4355D /* News */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		83BC37A41EF605C600BD5367 /* NewsAlone */ = {
+			isa = PBXGroup;
+			children = (
+				83BC37A51EF606A900BD5367 /* News.swift */,
+				83BC37A71EF606E100BD5367 /* NewsTableViewController.swift */,
+				83BC37A91EF6073D00BD5367 /* NewsTableViewCell.swift */,
+				83BC37AB1EF608A200BD5367 /* DetailNewsViewController.swift */,
+			);
+			name = NewsAlone;
+			sourceTree = "<group>";
+		};
+		83BC37B81EF622B700BD5367 /* Prayer */ = {
+			isa = PBXGroup;
+			children = (
+				83BC37B61EF6229F00BD5367 /* PrayerTableViewController.swift */,
+				83BC37B91EF6230A00BD5367 /* PrayerTableViewCell.swift */,
+				83BC37BB1EF6231600BD5367 /* Prayer.swift */,
+			);
+			name = Prayer;
+			sourceTree = "<group>";
+		};
+		83BC37C91EF63EF000BD5367 /* HomeSegmented */ = {
+			isa = PBXGroup;
+			children = (
+				83BC37CA1EF6413000BD5367 /* TabySegmentedControl.swift */,
+				83BC37CB1EF6413000BD5367 /* ParentViewController.swift */,
+			);
+			name = HomeSegmented;
+			sourceTree = "<group>";
+		};
+		83BC37D71EF67E2300BD5367 /* Devotional */ = {
+			isa = PBXGroup;
+			children = (
+				83BC37DA1EF67E4F00BD5367 /* DevotionalTableViewCell.swift */,
+				83BC37DE1EF67E6F00BD5367 /* Devotion.swift */,
+				83BC37E01EF6873C00BD5367 /* DetailDevotionalViewController.swift */,
+				83BC37E21EF690E000BD5367 /* DevotionTableViewController.swift */,
+			);
+			name = Devotional;
+			sourceTree = "<group>";
+		};
 		83D6BA841EF56E9800F178B4 = {
 			isa = PBXGroup;
 			children = (
 				83D6BA8F1EF56E9800F178B4 /* ismic */,
 				83D6BA8E1EF56E9800F178B4 /* Products */,
+				26DD8A9536CDF7C3D0DFF42F /* Pods */,
+				61FFF73374807C39D0F7A5B8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,17 +232,27 @@
 		83D6BA8F1EF56E9800F178B4 /* ismic */ = {
 			isa = PBXGroup;
 			children = (
+				8310A18F1EFAA4FB004DA243 /* Resource */,
+				834A85A91EF95FA100293401 /* TestimonySide */,
+				83BC37D71EF67E2300BD5367 /* Devotional */,
+				83BC37C91EF63EF000BD5367 /* HomeSegmented */,
+				83BC37B81EF622B700BD5367 /* Prayer */,
+				83BC37A41EF605C600BD5367 /* NewsAlone */,
+				83BC37A31EF605AB00BD5367 /* Home */,
 				83D6BA901EF56E9800F178B4 /* AppDelegate.swift */,
-				83D6BA921EF56E9800F178B4 /* ViewController.swift */,
 				83D6BA941EF56E9800F178B4 /* Main.storyboard */,
 				83D6BA971EF56E9800F178B4 /* Assets.xcassets */,
 				83D6BA991EF56E9800F178B4 /* LaunchScreen.storyboard */,
+				83BC37BE1EF633C200BD5367 /* SWRevealViewController.h */,
+				83BC37BF1EF633C200BD5367 /* SWRevealViewController.m */,
 				83D6BA9C1EF56E9800F178B4 /* Info.plist */,
 				832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */,
-				83D6BAA21EF56F4A00F178B4 /* HomeViewController.swift */,
 				83D6BAA41EF56F5900F178B4 /* PrayerViewController.swift */,
 				83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */,
-				83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */,
+				83BC37BD1EF633C100BD5367 /* ismic-Bridging-Header.h */,
+				83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */,
+				83BC38E91EF6BE1200BD5367 /* oneViewController.swift */,
+				83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */,
 			);
 			path = ismic;
 			sourceTree = "<group>";
@@ -86,9 +264,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 83D6BA9F1EF56E9800F178B4 /* Build configuration list for PBXNativeTarget "ismic" */;
 			buildPhases = (
+				432ED4081139CAE3178E3D9C /* [CP] Check Pods Manifest.lock */,
 				83D6BA891EF56E9800F178B4 /* Sources */,
 				83D6BA8A1EF56E9800F178B4 /* Frameworks */,
 				83D6BA8B1EF56E9800F178B4 /* Resources */,
+				46D8E1F0AB2ED1A150792F90 /* [CP] Embed Pods Frameworks */,
+				B4E66C86DC271AA0E7B0B5A6 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -111,6 +292,7 @@
 				TargetAttributes = {
 					83D6BA8C1EF56E9800F178B4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -147,17 +329,91 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		432ED4081139CAE3178E3D9C /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		46D8E1F0AB2ED1A150792F90 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ismic/Pods-ismic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4E66C86DC271AA0E7B0B5A6 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ismic/Pods-ismic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		83D6BA891EF56E9800F178B4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				83BC37DF1EF67E6F00BD5367 /* Devotion.swift in Sources */,
+				83BC38EA1EF6BE1200BD5367 /* oneViewController.swift in Sources */,
+				83BC37A21EF5F94100BD5367 /* Testimony.swift in Sources */,
+				83BC37BA1EF6230A00BD5367 /* PrayerTableViewCell.swift in Sources */,
+				836D57201EF5987000C4355D /* NewsDetailViewController.swift in Sources */,
 				83D6BAA71EF56F6800F178B4 /* ResourceViewController.swift in Sources */,
 				83D6BAA91EF5706900F178B4 /* NewsCollectionViewCell.swift in Sources */,
-				83D6BA931EF56E9800F178B4 /* ViewController.swift in Sources */,
+				83BC37E31EF690E000BD5367 /* DevotionTableViewController.swift in Sources */,
+				83BC37AA1EF6073D00BD5367 /* NewsTableViewCell.swift in Sources */,
+				8310A1921EFAA563004DA243 /* ResourceParentViewController.swift in Sources */,
+				83BC379F1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift in Sources */,
+				83BC37E11EF6873C00BD5367 /* DetailDevotionalViewController.swift in Sources */,
+				83BC37AC1EF608A200BD5367 /* DetailNewsViewController.swift in Sources */,
+				834A85B11EF95FBD00293401 /* TestiTableViewController.swift in Sources */,
+				83BC37E51EF6939000BD5367 /* AboutUsViewController.swift in Sources */,
 				83D6BA911EF56E9800F178B4 /* AppDelegate.swift in Sources */,
+				834A85A81EF9467700293401 /* TestimonyDetailViewController.swift in Sources */,
+				83BC37CC1EF6413000BD5367 /* TabySegmentedControl.swift in Sources */,
 				83D6BAA31EF56F4A00F178B4 /* HomeViewController.swift in Sources */,
+				83BC37B71EF6229F00BD5367 /* PrayerTableViewController.swift in Sources */,
+				83BC37CD1EF6413000BD5367 /* ParentViewController.swift in Sources */,
+				834A85B01EF95FBD00293401 /* TestiTableViewCell.swift in Sources */,
+				83BC37A81EF606E100BD5367 /* NewsTableViewController.swift in Sources */,
+				83BC37DB1EF67E4F00BD5367 /* DevotionalTableViewCell.swift in Sources */,
+				83BC38EC1EF6BE1F00BD5367 /* twoViewController.swift in Sources */,
+				83BC37BC1EF6231600BD5367 /* Prayer.swift in Sources */,
 				83D6BAA51EF56F5900F178B4 /* PrayerViewController.swift in Sources */,
+				83BC37C01EF633C200BD5367 /* SWRevealViewController.m in Sources */,
+				83BC37A61EF606A900BD5367 /* News.swift in Sources */,
+				836D571E1EF5812600C4355D /* User.swift in Sources */,
+				834A85AF1EF95FBD00293401 /* TestiDetailViewController.swift in Sources */,
+				834A85AE1EF95FBD00293401 /* Testi.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,24 +534,31 @@
 		};
 		83D6BAA01EF56E9800F178B4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85254B0C8B78B5554C580C11 /* Pods-ismic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ismic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eecmy.ismic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ismic/ismic-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		83D6BAA11EF56E9800F178B4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 667CAFB458FEE5F6DED6520F /* Pods-ismic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = ismic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eecmy.ismic;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ismic/ismic-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;

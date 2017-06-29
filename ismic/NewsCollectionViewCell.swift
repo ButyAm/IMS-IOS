@@ -7,6 +7,9 @@
 //
 
 import UIKit
+import Firebase
+import FirebaseDatabase
+import FirebaseStorage
 
 class NewsCollectionViewCell: UICollectionViewCell {
     
@@ -15,4 +18,45 @@ class NewsCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var image: UIImageView!
     @IBOutlet weak var title: UILabel!
     
+    
+    var dataBaseRef: FIRDatabaseReference! {
+        return FIRDatabase.database().reference()
+    }
+    
+    var storageRef: FIRStorage {
+        
+        return FIRStorage.storage()
+    }
+    
+    
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        // Initialization code
+        // newsimage.layer.cornerRadius = 54
+        
+    }
+    
+    func configureCell(user: User){
+        
+        self.title.text = user.newsTitle
+        
+        let imageURL = user.photoURL!
+        
+        self.storageRef.reference(forURL: imageURL).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+            
+            if error == nil {
+                DispatchQueue.main.async {
+                    if let data = imgData {
+                        self.image.image = UIImage(data: data)
+                    }
+                }
+                
+            }else {
+                print(error!.localizedDescription)
+                
+            }
+            
+            
+        })
+    }
 }
