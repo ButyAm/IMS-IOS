@@ -8,6 +8,8 @@ target 'ismic' do
   pod 'Firebase/Messaging'
   pod 'Firebase/Storage'
   pod 'Firebase/Auth'
+  pod 'YouTubePlayer-Swift', '~> 1.0'
+  use_frameworks!
   # Pods for ismic
 
 end

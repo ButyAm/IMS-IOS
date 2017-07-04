@@ -16,23 +16,23 @@ class TabySegmentedControl: UISegmentedControl {
 //    }
     
     func initUI(){
-        setupBackground()
+      //  setupBackground()
         setupFonts()
     }
     
-    func setupBackground(){
-        let backgroundImage = UIImage(named: "segmented_unselected")
-        let dividerImage = UIImage(named: "segmented_separator")
-        let backgroundImageSelected = UIImage(named: "segmented_selected")
-        
-       // self.setBackgroundImage(backgroundImage, for: UIControlState(), barMetrics: .default)
-        self.setBackgroundImage(backgroundImageSelected, for: .highlighted, barMetrics: .default)
-        self.setBackgroundImage(backgroundImageSelected, for: .selected, barMetrics: .default)
-        
-        self.setDividerImage(dividerImage, forLeftSegmentState: UIControlState(), rightSegmentState: .selected, barMetrics: .default)
-        self.setDividerImage(dividerImage, forLeftSegmentState: .selected, rightSegmentState: UIControlState(), barMetrics: .default)
-        self.setDividerImage(dividerImage, forLeftSegmentState: UIControlState(), rightSegmentState: UIControlState(), barMetrics: .default)
-    }
+//    func setupBackground(){
+//        let backgroundImage = UIImage(named: "segmented_unselected")
+//        let dividerImage = UIImage(named: "segmented_separator")
+//        let backgroundImageSelected = UIImage(named: "segmented_selected")
+//        
+//       // self.setBackgroundImage(backgroundImage, for: UIControlState(), barMetrics: .default)
+//        self.setBackgroundImage(backgroundImageSelected, for: .highlighted, barMetrics: .default)
+//        self.setBackgroundImage(backgroundImageSelected, for: .selected, barMetrics: .default)
+//        
+//        self.setDividerImage(dividerImage, forLeftSegmentState: UIControlState(), rightSegmentState: .selected, barMetrics: .default)
+//        self.setDividerImage(dividerImage, forLeftSegmentState: .selected, rightSegmentState: UIControlState(), barMetrics: .default)
+//        self.setDividerImage(dividerImage, forLeftSegmentState: UIControlState(), rightSegmentState: UIControlState(), barMetrics: .default)
+//    }
     
     func setupFonts(){
         let font = UIFont.systemFont(ofSize: 16.0)

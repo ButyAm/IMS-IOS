@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0BF22B85F2FC17A1E46EA94A /* libPods-ismic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */; };
+		66EC765797BD7D8A21CD5086 /* Pods_ismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C76C2F16C032A5073C7CB6F /* Pods_ismic.framework */; };
 		8310A1921EFAA563004DA243 /* ResourceParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */; };
 		832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */; };
 		834A85A81EF9467700293401 /* TestimonyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */; };
@@ -15,6 +15,7 @@
 		834A85AF1EF95FBD00293401 /* TestiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */; };
 		834A85B01EF95FBD00293401 /* TestiTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AC1EF95FBD00293401 /* TestiTableViewCell.swift */; };
 		834A85B11EF95FBD00293401 /* TestiTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AD1EF95FBD00293401 /* TestiTableViewController.swift */; };
+		836A2FCF1F0A7801000E4FDC /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836A2FCE1F0A7801000E4FDC /* YoutubeViewController.swift */; };
 		836D571E1EF5812600C4355D /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D571D1EF5812600C4355D /* User.swift */; };
 		836D57201EF5987000C4355D /* NewsDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 836D571F1EF5987000C4355D /* NewsDetailViewController.swift */; };
 		83BC379F1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC379E1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift */; };
@@ -47,6 +48,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1C76C2F16C032A5073C7CB6F /* Pods_ismic.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ismic.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		667CAFB458FEE5F6DED6520F /* Pods-ismic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ismic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ismic/Pods-ismic.release.xcconfig"; sourceTree = "<group>"; };
 		8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceParentViewController.swift; sourceTree = "<group>"; };
 		832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
@@ -55,6 +57,7 @@
 		834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiDetailViewController.swift; sourceTree = "<group>"; };
 		834A85AC1EF95FBD00293401 /* TestiTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiTableViewCell.swift; sourceTree = "<group>"; };
 		834A85AD1EF95FBD00293401 /* TestiTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiTableViewController.swift; sourceTree = "<group>"; };
+		836A2FCE1F0A7801000E4FDC /* YoutubeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
 		836D571D1EF5812600C4355D /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		836D571F1EF5987000C4355D /* NewsDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsDetailViewController.swift; sourceTree = "<group>"; };
 		83BC379E1EF5F10000BD5367 /* TestimonyCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonyCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -89,7 +92,6 @@
 		83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceViewController.swift; sourceTree = "<group>"; };
 		83D6BAA81EF5706900F178B4 /* NewsCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NewsCollectionViewCell.swift; sourceTree = "<group>"; };
 		85254B0C8B78B5554C580C11 /* Pods-ismic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ismic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ismic/Pods-ismic.debug.xcconfig"; sourceTree = "<group>"; };
-		CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ismic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,7 +99,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0BF22B85F2FC17A1E46EA94A /* libPods-ismic.a in Frameworks */,
+				66EC765797BD7D8A21CD5086 /* Pods_ismic.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,7 +118,7 @@
 		61FFF73374807C39D0F7A5B8 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				CDB39E8984B0EBEEFE5F6928 /* libPods-ismic.a */,
+				1C76C2F16C032A5073C7CB6F /* Pods_ismic.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -124,7 +126,9 @@
 		8310A18F1EFAA4FB004DA243 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				83BC37D71EF67E2300BD5367 /* Devotional */,
 				8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */,
+				836A2FCE1F0A7801000E4FDC /* YoutubeViewController.swift */,
 			);
 			name = Resource;
 			sourceTree = "<group>";
@@ -234,7 +238,6 @@
 			children = (
 				8310A18F1EFAA4FB004DA243 /* Resource */,
 				834A85A91EF95FA100293401 /* TestimonySide */,
-				83BC37D71EF67E2300BD5367 /* Devotional */,
 				83BC37C91EF63EF000BD5367 /* HomeSegmented */,
 				83BC37B81EF622B700BD5367 /* Prayer */,
 				83BC37A41EF605C600BD5367 /* NewsAlone */,
@@ -405,6 +408,7 @@
 				83BC37CD1EF6413000BD5367 /* ParentViewController.swift in Sources */,
 				834A85B01EF95FBD00293401 /* TestiTableViewCell.swift in Sources */,
 				83BC37A81EF606E100BD5367 /* NewsTableViewController.swift in Sources */,
+				836A2FCF1F0A7801000E4FDC /* YoutubeViewController.swift in Sources */,
 				83BC37DB1EF67E4F00BD5367 /* DevotionalTableViewCell.swift in Sources */,
 				83BC38EC1EF6BE1F00BD5367 /* twoViewController.swift in Sources */,
 				83BC37BC1EF6231600BD5367 /* Prayer.swift in Sources */,

@@ -206,10 +206,10 @@
                                     <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="bar" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="WYw-zj-wDP" customClass="TabySegmentedControl" customModule="ismic" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="64" width="375" height="29"/>
                                         <segments>
-                                            <segment title="Home"/>
+                                            <segment title="Devotional"/>
                                             <segment title="Prayer"/>
                                         </segments>
-                                        <color key="tintColor" red="0.18823529410000001" green="0.2470588235" blue="0.62352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="tintColor" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
                                             <action selector="switchTabs:" destination="hB3-pS-Ip9" eventType="valueChanged" id="O84-YM-Mev"/>
                                             <action selector="switchTabs:" destination="HMa-Gl-bSE" eventType="valueChanged" id="gGC-7g-fua"/>
@@ -948,23 +948,107 @@
             </objects>
             <point key="canvasLocation" x="8044" y="-1629.5352323838083"/>
         </scene>
-        <!--Two View Controller-->
+        <!--Youtube View Controller-->
         <scene sceneID="al5-Al-hIy">
             <objects>
-                <viewController storyboardIdentifier="resourceSecondViewControllerId" id="i5M-KD-i0Z" customClass="twoViewController" customModule="ismic" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="resourceSecondViewControllerId" id="i5M-KD-i0Z" customClass="YoutubeViewController" customModule="ismic" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Mk8-3x-MnA"/>
                         <viewControllerLayoutGuide type="bottom" id="eDg-iD-lxL"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="7LO-bn-gCt">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" red="0.97376590969999999" green="0.78393608329999998" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KZm-dl-auk">
+                                <rect key="frame" x="0.0" y="0.0" width="375" height="1100"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="4" translatesAutoresizingMaskIntoConstraints="NO" id="isV-91-FJP">
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="913"/>
+                                        <subviews>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="TSK-xJ-GFn" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="fC0-m8-nqQ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="hLf-U7-T4G" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="131" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="0qF-sC-eFv"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="K2x-Mu-GZf" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="262" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="Bfh-OC-wd8"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GPE-zp-jAT" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="393" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="BfV-dn-bIR"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="YTM-qY-NqM" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="524" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="DL7-Le-ZpQ"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="V7v-xm-mjT" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="655" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="h28-6n-kNd"/>
+                                                </constraints>
+                                            </view>
+                                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="7xd-iX-MDk" customClass="YouTubePlayerView" customModule="YouTubePlayer_Swift">
+                                                <rect key="frame" x="0.0" y="786" width="375" height="127"/>
+                                                <color key="backgroundColor" red="0.026127705349999999" green="0.70456445219999997" blue="0.69228392839999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="127" id="8Dc-2n-YJk"/>
+                                                </constraints>
+                                            </view>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <constraints>
+                                    <constraint firstItem="isV-91-FJP" firstAttribute="centerX" secondItem="KZm-dl-auk" secondAttribute="centerX" id="EFL-Md-edp"/>
+                                    <constraint firstAttribute="trailing" secondItem="isV-91-FJP" secondAttribute="trailing" id="Rkt-vw-K2Y"/>
+                                    <constraint firstItem="isV-91-FJP" firstAttribute="top" secondItem="KZm-dl-auk" secondAttribute="top" id="b6X-Xj-4dO"/>
+                                    <constraint firstAttribute="bottom" secondItem="isV-91-FJP" secondAttribute="bottom" constant="187" id="fWv-ir-zY1"/>
+                                    <constraint firstItem="isV-91-FJP" firstAttribute="leading" secondItem="KZm-dl-auk" secondAttribute="leading" id="uYV-vO-3lh"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="KZm-dl-auk" firstAttribute="leading" secondItem="7LO-bn-gCt" secondAttribute="leading" id="6pI-OB-bXa"/>
+                            <constraint firstAttribute="trailing" secondItem="KZm-dl-auk" secondAttribute="trailing" id="E6D-sk-WVo"/>
+                            <constraint firstItem="eDg-iD-lxL" firstAttribute="top" secondItem="KZm-dl-auk" secondAttribute="bottom" id="gdw-vD-ZGh"/>
+                            <constraint firstItem="KZm-dl-auk" firstAttribute="top" secondItem="7LO-bn-gCt" secondAttribute="top" id="q4H-8s-lxd"/>
+                        </constraints>
                     </view>
+                    <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+                    <size key="freeformSize" width="375" height="1100"/>
+                    <connections>
+                        <outlet property="videoView" destination="TSK-xJ-GFn" id="8uH-4Y-zTr"/>
+                        <outlet property="videoView1" destination="hLf-U7-T4G" id="lMV-zh-byG"/>
+                        <outlet property="videoView2" destination="K2x-Mu-GZf" id="iNg-SH-xJ2"/>
+                        <outlet property="videoView3" destination="GPE-zp-jAT" id="ARU-Xw-jbB"/>
+                        <outlet property="videoView4" destination="YTM-qY-NqM" id="h9y-b3-Rqr"/>
+                        <outlet property="videoView5" destination="V7v-xm-mjT" id="Fei-hR-tBs"/>
+                        <outlet property="videoView6" destination="7xd-iX-MDk" id="dtA-EB-BWy"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="9BN-1P-IEP" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10522" y="259"/>
+            <point key="canvasLocation" x="10996" y="320"/>
         </scene>
         <!--Table View Controller-->
         <scene sceneID="zRL-Js-lge">

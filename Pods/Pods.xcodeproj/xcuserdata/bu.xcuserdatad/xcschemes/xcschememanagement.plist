@@ -24,25 +24,35 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>YouTubePlayer-Swift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>025AC0066DC478B9EA49EDCAFDAE4867</key>
+		<key>1409891260C4238871B0095EC316923B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>07E1CC571CD975BCB2F70462892FEF59</key>
+		<key>2E70E15D001D95544F6BA831E9A3BADF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>DE868725B18AE240E550C5515AE66BC4</key>
+		<key>6D5CEDECD3D8DC52EA507E0431BDA8A0</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>FA4C1B12F17DC6C0B9E9A774260818DC</key>
+		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>D44ABD12577C9E3D7398F225CFD318E9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
