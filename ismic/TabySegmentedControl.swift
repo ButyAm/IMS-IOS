@@ -39,7 +39,7 @@ class TabySegmentedControl: UISegmentedControl {
         
         
         let normalTextAttributes = [
-            NSForegroundColorAttributeName: UIColor.black,
+           // NSForegroundColorAttributeName: UIColor.white,
             NSFontAttributeName: font
         ]
         

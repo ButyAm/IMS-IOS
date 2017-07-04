@@ -1,41 +1,44 @@
 PODS:
-  - Firebase (3.13.0):
-    - Firebase/Core (= 3.13.0)
-  - Firebase/Auth (3.13.0):
+  - Firebase (4.0.3):
+    - Firebase/Core (= 4.0.3)
+  - Firebase/Auth (4.0.3):
     - Firebase/Core
-    - FirebaseAuth (= 3.1.1)
-  - Firebase/Core (3.13.0):
-    - FirebaseAnalytics (= 3.7.0)
-    - FirebaseCore (= 3.5.0)
-  - Firebase/Database (3.13.0):
+    - FirebaseAuth (= 4.0.0)
+  - Firebase/Core (4.0.3):
+    - FirebaseAnalytics (= 4.0.2)
+    - FirebaseCore (= 4.0.3)
+  - Firebase/Database (4.0.3):
     - Firebase/Core
-    - FirebaseDatabase (= 3.1.2)
-  - Firebase/Messaging (3.13.0):
+    - FirebaseDatabase (= 4.0.0)
+  - Firebase/Messaging (4.0.3):
     - Firebase/Core
-    - FirebaseMessaging (= 1.2.2)
-  - Firebase/Storage (3.13.0):
+    - FirebaseMessaging (= 2.0.0)
+  - Firebase/Storage (4.0.3):
     - Firebase/Core
-    - FirebaseStorage (= 1.0.6)
-  - FirebaseAnalytics (3.7.0):
-    - FirebaseCore (~> 3.5)
-    - FirebaseInstanceID (~> 1.0)
+    - FirebaseStorage (= 2.0.0)
+  - FirebaseAnalytics (4.0.2):
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseAuth (3.1.1):
-    - FirebaseAnalytics (~> 3.7)
+  - FirebaseAuth (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
     - GoogleToolboxForMac/NSDictionary+URLArguments (~> 2.1)
     - GTMSessionFetcher/Core (~> 1.1)
-  - FirebaseCore (3.5.0):
+  - FirebaseCore (4.0.3):
     - GoogleToolboxForMac/NSData+zlib (~> 2.1)
-  - FirebaseDatabase (3.1.2):
-    - FirebaseAnalytics (~> 3.7)
-  - FirebaseInstanceID (1.0.9)
-  - FirebaseMessaging (1.2.2):
-    - FirebaseAnalytics (~> 3.7)
-    - FirebaseInstanceID (~> 1.0)
+  - FirebaseDatabase (4.0.0):
+    - FirebaseAnalytics (~> 4.0)
+  - FirebaseInstanceID (2.0.0):
+    - FirebaseCore (~> 4.0)
+  - FirebaseMessaging (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
+    - FirebaseInstanceID (~> 2.0)
     - GoogleToolboxForMac/Logger (~> 2.1)
     - Protobuf (~> 3.1)
-  - FirebaseStorage (1.0.6):
-    - FirebaseAnalytics (~> 3.7)
+  - FirebaseStorage (2.0.0):
+    - FirebaseAnalytics (~> 4.0)
+    - FirebaseCore (~> 4.0)
     - GTMSessionFetcher/Core (~> 1.1)
   - GoogleToolboxForMac/DebugUtils (2.1.1):
     - GoogleToolboxForMac/Defines (= 2.1.1)
@@ -49,8 +52,8 @@ PODS:
     - GoogleToolboxForMac/Defines (= 2.1.1)
     - GoogleToolboxForMac/NSString+URLArguments (= 2.1.1)
   - GoogleToolboxForMac/NSString+URLArguments (2.1.1)
-  - GTMSessionFetcher/Core (1.1.8)
-  - Protobuf (3.2.0)
+  - GTMSessionFetcher/Core (1.1.10)
+  - Protobuf (3.3.0)
   - YouTubePlayer-Swift (1.0)
 
 DEPENDENCIES:
@@ -63,17 +66,17 @@ DEPENDENCIES:
   - YouTubePlayer-Swift (~> 1.0)
 
 SPEC CHECKSUMS:
-  Firebase: 5bc34d7b5ff5792e3386c8b28dc6265deeab0da4
-  FirebaseAnalytics: 0d1b7d81d5021155be37702a94ba1ec16d45365d
-  FirebaseAuth: cc8a1824170adbd351edb7f994490a3fb5c18be6
-  FirebaseCore: 1c0a13bf59bb95cdd19577252499f0ec6a03e999
-  FirebaseDatabase: 05c96d7b43a7368dc91c07791adb49683e1738d1
-  FirebaseInstanceID: 2d0518b1378fe9d685ef40cbdd63d2fdc1125339
-  FirebaseMessaging: df8267f378580a24174ce7861233aa11d5c90109
-  FirebaseStorage: 63628572a5fde258f8e933b5fb42697468da0158
+  Firebase: 9e33fdfbca37cab635c693883caa90a4475b842b
+  FirebaseAnalytics: ad41720e3e67fc63fbe3d2948d3e26932a8de311
+  FirebaseAuth: ebb6abcbabae00fc47446d690c19ce68d8484fde
+  FirebaseCore: c709067051de07bdaffdc4e735cd7299a23c463a
+  FirebaseDatabase: d829b3a8c3e2ac7a16773c5df226966b0805dfc2
+  FirebaseInstanceID: 9fbf536668f4d3f0880e7438456dabd1376e294b
+  FirebaseMessaging: 227406c05b0dc9290702d2e9f18ab5528f0c2cf2
+  FirebaseStorage: 8110a1ed2034c8fbfd83890d2acc9cdbbd99afec
   GoogleToolboxForMac: 8e329f1b599f2512c6b10676d45736bcc2cbbeb0
-  GTMSessionFetcher: 6f8d8b28b7e345549ac471071608170b31cb4977
-  Protobuf: 745f59e122e5de98d4d7ef291e264a0eef80f58e
+  GTMSessionFetcher: 30d874b96d0d76028f61fbd122801e3f030d47db
+  Protobuf: d582fecf68201eac3d79ed61369ef45734394b9c
   YouTubePlayer-Swift: ae82f4bcb504162a872b852596a9dc1fa3828c34
 
 PODFILE CHECKSUM: 6bec89f2be400ee6daf775b976cf6845eb14f7d0

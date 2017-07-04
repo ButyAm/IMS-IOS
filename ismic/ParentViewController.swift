@@ -36,7 +36,10 @@ class ParentViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
+//        
+//        let subViewOfSegment: UIView = segmentedControl.subviews[0] as UIView
+//        subViewOfSegment.tintColor = UIColor.white
+//        
         if revealViewController() != nil {
             
             menuButton.target = revealViewController()
