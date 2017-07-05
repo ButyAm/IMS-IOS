@@ -13,14 +13,14 @@ import FirebaseStorage
 
 class TestiDetailViewController: UIViewController {
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
 
@@ -54,7 +54,7 @@ class TestiDetailViewController: UIViewController {
         
         let imageURL = SentData3
         
-        self.storageRef.reference(forURL: imageURL!).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        self.storageRef.reference(forURL: imageURL!).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

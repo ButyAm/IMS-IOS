@@ -99,14 +99,14 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
     var usersArray = [User]()
     var testArray = [Testimony]()
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     
@@ -153,7 +153,7 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
         collectionView2.delegate = self
 
         
-        FIRAuth.auth()?.signIn(withEmail: emailField, password: pwdField, completion: { (user, error) in
+        Auth.auth().signIn(withEmail: emailField, password: pwdField, completion: { (user, error) in
             if error == nil {
                 print("Buty: Email user authenticated with Firebase")
                 
@@ -182,7 +182,7 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
             
             for user in snapshot.children {
                 
-                let user = User(snapshot: user as! FIRDataSnapshot)
+                let user = User(snapshot: user as! DataSnapshot)
                 
                 results.append(user)
                 
@@ -206,7 +206,7 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
             
             for user in snapshot.children {
                 
-                let user = Testimony(snapshot: user as! FIRDataSnapshot)
+                let user = Testimony(snapshot: user as! DataSnapshot)
                 
                 fetchedTestimonies.append(user)
                 
@@ -257,7 +257,7 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
         //
         let imageURL = usersArray[indexPath.row].photoURL!
         
-        cell.storageRef.reference(forURL: imageURL).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        cell.storageRef.reference(forURL: imageURL).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {
@@ -287,7 +287,7 @@ class HomeViewController: UIViewController,UICollectionViewDataSource, UICollect
             //
             let testImage = testArray[indexPath.row].imageURLTest!
             
-            cell2.storageRef.reference(forURL: testImage).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgDataTest, error) in
+            cell2.storageRef.reference(forURL: testImage).getData(maxSize: 15 * 1024 * 1024, completion: { (imgDataTest, error) in
                 
                 if error == nil {
                     DispatchQueue.main.async {

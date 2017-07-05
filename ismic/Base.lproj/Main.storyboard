@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ni9-iu-JhI">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16A313a" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="Ni9-iu-JhI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -172,7 +172,7 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="005-AL-rnY">
-                        <barButtonItem key="leftBarButtonItem" image="barButtonItem:YJl-Be-nh7:image" id="YJl-Be-nh7"/>
+                        <barButtonItem key="leftBarButtonItem" image="74D904B0-D33E-4EA2-A5C7-871A3B4A2367" id="YJl-Be-nh7"/>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView1" destination="6vA-wO-lfq" id="ruU-1F-gTa"/>
@@ -227,7 +227,7 @@
                                         <rect key="frame" x="0.0" y="131" width="375" height="29"/>
                                         <segments>
                                             <segment title="Devotional"/>
-                                            <segment title="Prayer"/>
+                                            <segment title="Youtube"/>
                                         </segments>
                                         <color key="tintColor" red="0.2470588235" green="0.31764705879999999" blue="0.70980392160000005" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <connections>
@@ -1712,8 +1712,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="Logo" width="356" height="356"/>
-        <image name="barButtonItem:YJl-Be-nh7:image" width="32" height="32">
+        <image name="74D904B0-D33E-4EA2-A5C7-871A3B4A2367" width="32" height="32">
             <mutableData key="keyedArchiveRepresentation">
 YnBsaXN0MDDUAQIDBAUGPT5YJHZlcnNpb25YJG9iamVjdHNZJGFyY2hpdmVyVCR0b3ASAAGGoK4HCBMU
 GR4fIyQrLjE3OlUkbnVsbNUJCgsMDQ4PEBESVk5TU2l6ZVYkY2xhc3NcTlNJbWFnZUZsYWdzVk5TUmVw
@@ -1832,6 +1831,7 @@ AKsArQCyALUAtwC5ALsAvQDCANkA2wDdGX8ZhBmPGZgZqxmvGboZwxnIGdAZ0xnYGecZ6xnyGfoaBxoM
 Gg4aEBoVGh0aIBolGi0aMBpCGkUaSgAAAAAAAAIBAAAAAAAAAEEAAAAAAAAAAAAAAAAAABpMA
 </mutableData>
         </image>
+        <image name="Logo" width="356" height="356"/>
         <image name="menu" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>

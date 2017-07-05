@@ -17,14 +17,14 @@ class DevotionTableViewController: UITableViewController {
     
     var devotionalArray = [Devotion]()
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,7 +44,7 @@ class DevotionTableViewController: UITableViewController {
             
             for user in snapshot.children {
                 
-                let user = Devotion(snapshot: user as! FIRDataSnapshot)
+                let user = Devotion(snapshot: user as! DataSnapshot)
                 
                 fetchedDevotionals.append(user)
                 
@@ -82,7 +82,7 @@ class DevotionTableViewController: UITableViewController {
         
                 let imageURL = devotionalArray[indexPath.row].devoPhotoURL!
         
-                cell.storageRef.reference(forURL: imageURL).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+                cell.storageRef.reference(forURL: imageURL).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
         
                     if error == nil {
                         DispatchQueue.main.async {

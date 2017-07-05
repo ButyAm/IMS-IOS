@@ -21,13 +21,13 @@ class TestiTableViewCell: UITableViewCell {
 
     @IBOutlet weak var testiDetail: UITextView!
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     
@@ -45,7 +45,7 @@ class TestiTableViewCell: UITableViewCell {
         
         let testimonyImageUrl = testi.testimonyImages!
         
-        self.storageRef.reference(forURL: testimonyImageUrl).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        self.storageRef.reference(forURL: testimonyImageUrl).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

@@ -18,10 +18,10 @@ struct User {
     var newsDetail: String!
 
     var photoURL: String!
-    var ref: FIRDatabaseReference?
+    var ref: DatabaseReference?
     var key: String?
     
-    init(snapshot: FIRDataSnapshot){
+    init(snapshot: DataSnapshot){
         
         key = snapshot.key
         ref = snapshot.ref

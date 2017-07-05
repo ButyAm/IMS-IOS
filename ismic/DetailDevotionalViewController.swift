@@ -14,14 +14,14 @@ import FirebaseStorage
 
 class DetailDevotionalViewController: UIViewController {
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     @IBOutlet weak var detailtitle: UILabel!
@@ -57,7 +57,7 @@ class DetailDevotionalViewController: UIViewController {
         
                 let devotionalImageUrl = SentData3
         
-                self.storageRef.reference(forURL: devotionalImageUrl!).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+                self.storageRef.reference(forURL: devotionalImageUrl!).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
         
                     if error == nil {
                         DispatchQueue.main.async {

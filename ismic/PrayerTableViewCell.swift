@@ -15,13 +15,13 @@ class PrayerTableViewCell: UITableViewCell {
     @IBOutlet weak var prayDetail: UILabel!
 
     @IBOutlet weak var prayTitle: UILabel!
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     

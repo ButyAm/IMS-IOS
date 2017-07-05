@@ -21,13 +21,13 @@ class DevotionalTableViewCell: UITableViewCell {
 //    @IBOutlet weak var devDetail: UITextView!
 //    @IBOutlet weak var devImage: UIImageView!
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     
@@ -46,7 +46,7 @@ class DevotionalTableViewCell: UITableViewCell {
         
         let imageURL = user.devoPhotoURL!
         
-        self.storageRef.reference(forURL: imageURL).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        self.storageRef.reference(forURL: imageURL).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

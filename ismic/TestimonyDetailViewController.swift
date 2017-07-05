@@ -13,14 +13,14 @@ import FirebaseStorage
 
 class TestimonyDetailViewController: UIViewController {
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     @IBOutlet weak var detailtitle: UILabel!
@@ -67,7 +67,7 @@ class TestimonyDetailViewController: UIViewController {
         
         let imageURL = getTestImages
         
-        self.storageRef.reference(forURL: imageURL! as! String).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        self.storageRef.reference(forURL: imageURL! as! String).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

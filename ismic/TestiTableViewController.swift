@@ -17,14 +17,14 @@ class TestiTableViewController: UITableViewController {
     
     var testiArray = [Testi]()
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -62,7 +62,7 @@ class TestiTableViewController: UITableViewController {
             
             for user in snapshot.children {
                 
-                let user = Testi(snapshot: user as! FIRDataSnapshot)
+                let user = Testi(snapshot: user as! DataSnapshot)
                 
                 fetchedTestimonies.append(user)
                 
@@ -102,7 +102,7 @@ class TestiTableViewController: UITableViewController {
         
         let testimonyImageUrl = testiArray[indexPath.row].testimonyImages!
         
-        cell.storageRef.reference(forURL: testimonyImageUrl).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        cell.storageRef.reference(forURL: testimonyImageUrl).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

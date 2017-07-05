@@ -17,14 +17,14 @@ class NewsTableViewController: UITableViewController {
     @IBOutlet weak var menuButton: UIBarButtonItem!
     var newsArray = [News]()
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -65,7 +65,7 @@ class NewsTableViewController: UITableViewController {
             
             for user in snapshot.children {
                 
-                let user = News(snapshot: user as! FIRDataSnapshot)
+                let user = News(snapshot: user as! DataSnapshot)
                 
                 results.append(user)
                 
@@ -100,7 +100,7 @@ class NewsTableViewController: UITableViewController {
         
         let imageURL = newsArray[indexPath.row].photoURL!
         
-        cell.storageRef.reference(forURL: imageURL).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        cell.storageRef.reference(forURL: imageURL).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {

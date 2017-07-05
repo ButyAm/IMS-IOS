@@ -18,10 +18,10 @@ struct Devotion {
     var devoSummary: String?
     var devoDetailnews: String?
     var devoPhotoURL: String!
-    var ref: FIRDatabaseReference?
+    var ref: DatabaseReference?
     var key: String?
     
-    init(snapshot: FIRDataSnapshot){
+    init(snapshot: DataSnapshot){
         
         key = snapshot.key
         ref = snapshot.ref

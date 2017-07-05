@@ -15,10 +15,10 @@ struct Pray {
     
     var titlePray: String!
     var summaryPray: String?
-    var ref: FIRDatabaseReference?
+    var ref: DatabaseReference?
     var key: String?
     
-    init(snapshot: FIRDataSnapshot){
+    init(snapshot: DataSnapshot){
         
         key = snapshot.key
         ref = snapshot.ref

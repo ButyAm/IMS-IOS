@@ -17,14 +17,14 @@ class PrayerTableViewController: UITableViewController {
         
         var prayArray = [Pray]()
         
-        var dataBaseRef: FIRDatabaseReference! {
-            return FIRDatabase.database().reference()
+        var dataBaseRef: DatabaseReference! {
+            return Database.database().reference()
         }
         
         
-        var storageRef: FIRStorage {
+        var storageRef: Storage {
             
-            return FIRStorage.storage()
+            return Storage.storage()
         }
         override func viewDidLoad() {
             super.viewDidLoad()
@@ -49,7 +49,7 @@ class PrayerTableViewController: UITableViewController {
                 
                 for user in snapshot.children {
                     
-                    let user = Pray(snapshot: user as! FIRDataSnapshot)
+                    let user = Pray(snapshot: user as! DataSnapshot)
                     
                     results.append(user)
                     

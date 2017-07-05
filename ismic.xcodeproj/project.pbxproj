@@ -35,7 +35,6 @@
 		83BC37E11EF6873C00BD5367 /* DetailDevotionalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E01EF6873C00BD5367 /* DetailDevotionalViewController.swift */; };
 		83BC37E31EF690E000BD5367 /* DevotionTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E21EF690E000BD5367 /* DevotionTableViewController.swift */; };
 		83BC37E51EF6939000BD5367 /* AboutUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */; };
-		83BC38EA1EF6BE1200BD5367 /* oneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC38E91EF6BE1200BD5367 /* oneViewController.swift */; };
 		83BC38EC1EF6BE1F00BD5367 /* twoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */; };
 		83D6BA911EF56E9800F178B4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83D6BA901EF56E9800F178B4 /* AppDelegate.swift */; };
 		83D6BA961EF56E9800F178B4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 83D6BA941EF56E9800F178B4 /* Main.storyboard */; };
@@ -79,7 +78,6 @@
 		83BC37E01EF6873C00BD5367 /* DetailDevotionalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailDevotionalViewController.swift; sourceTree = "<group>"; };
 		83BC37E21EF690E000BD5367 /* DevotionTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevotionTableViewController.swift; sourceTree = "<group>"; };
 		83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsViewController.swift; sourceTree = "<group>"; };
-		83BC38E91EF6BE1200BD5367 /* oneViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = oneViewController.swift; sourceTree = "<group>"; };
 		83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = twoViewController.swift; sourceTree = "<group>"; };
 		83D6BA8D1EF56E9800F178B4 /* ismic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ismic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83D6BA901EF56E9800F178B4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -254,7 +252,6 @@
 				83D6BAA61EF56F6800F178B4 /* ResourceViewController.swift */,
 				83BC37BD1EF633C100BD5367 /* ismic-Bridging-Header.h */,
 				83BC37E41EF6939000BD5367 /* AboutUsViewController.swift */,
-				83BC38E91EF6BE1200BD5367 /* oneViewController.swift */,
 				83BC38EB1EF6BE1F00BD5367 /* twoViewController.swift */,
 			);
 			path = ismic;
@@ -295,6 +292,7 @@
 				TargetAttributes = {
 					83D6BA8C1EF56E9800F178B4 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 8669QJ7R5Z;
 						LastSwiftMigration = 0830;
 						ProvisioningStyle = Automatic;
 					};
@@ -386,7 +384,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				83BC37DF1EF67E6F00BD5367 /* Devotion.swift in Sources */,
-				83BC38EA1EF6BE1200BD5367 /* oneViewController.swift in Sources */,
 				83BC37A21EF5F94100BD5367 /* Testimony.swift in Sources */,
 				83BC37BA1EF6230A00BD5367 /* PrayerTableViewCell.swift in Sources */,
 				836D57201EF5987000C4355D /* NewsDetailViewController.swift in Sources */,
@@ -484,7 +481,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -528,7 +525,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -542,6 +539,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8669QJ7R5Z;
 				INFOPLIST_FILE = ismic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eecmy.ismic;
@@ -558,6 +556,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 8669QJ7R5Z;
 				INFOPLIST_FILE = ismic/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.eecmy.ismic;

@@ -19,10 +19,10 @@ struct Testi {
     var testimonyDetail: String!
     var testimonyImages: String!
 
-    var ref: FIRDatabaseReference?
+    var ref: DatabaseReference?
     var key: String?
     
-    init(snapshot: FIRDataSnapshot){
+    init(snapshot: DataSnapshot){
         
         key = snapshot.key
         ref = snapshot.ref

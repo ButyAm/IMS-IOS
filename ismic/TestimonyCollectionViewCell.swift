@@ -18,13 +18,13 @@ class TestimonyCollectionViewCell: UICollectionViewCell {
     @IBOutlet weak var titleTest: UILabel!
     
     
-    var dataBaseRef: FIRDatabaseReference! {
-        return FIRDatabase.database().reference()
+    var dataBaseRef: DatabaseReference! {
+        return Database.database().reference()
     }
     
-    var storageRef: FIRStorage {
+    var storageRef: Storage {
         
-        return FIRStorage.storage()
+        return Storage.storage()
     }
     
     
@@ -41,7 +41,7 @@ class TestimonyCollectionViewCell: UICollectionViewCell {
         
         let imageURLTesti = user.imageURLTest!
         
-        self.storageRef.reference(forURL: imageURLTesti).data(withMaxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
+        self.storageRef.reference(forURL: imageURLTesti).getData(maxSize: 15 * 1024 * 1024, completion: { (imgData, error) in
             
             if error == nil {
                 DispatchQueue.main.async {
