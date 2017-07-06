@@ -10,6 +10,7 @@
 		66EC765797BD7D8A21CD5086 /* Pods_ismic.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C76C2F16C032A5073C7CB6F /* Pods_ismic.framework */; };
 		8310A1921EFAA563004DA243 /* ResourceParentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */; };
 		832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */; };
+		832FF1F81F0E4D2E0034476F /* AbyssinicaSIL-R.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 832FF1F71F0E4CFA0034476F /* AbyssinicaSIL-R.ttf */; };
 		834A85A81EF9467700293401 /* TestimonyDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */; };
 		834A85AE1EF95FBD00293401 /* Testi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AA1EF95FBD00293401 /* Testi.swift */; };
 		834A85AF1EF95FBD00293401 /* TestiDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */; };
@@ -51,6 +52,7 @@
 		667CAFB458FEE5F6DED6520F /* Pods-ismic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ismic.release.xcconfig"; path = "Pods/Target Support Files/Pods-ismic/Pods-ismic.release.xcconfig"; sourceTree = "<group>"; };
 		8310A1911EFAA563004DA243 /* ResourceParentViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResourceParentViewController.swift; sourceTree = "<group>"; };
 		832DC6191EF577EF00A97F55 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		832FF1F71F0E4CFA0034476F /* AbyssinicaSIL-R.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbyssinicaSIL-R.ttf"; sourceTree = "<group>"; };
 		834A85A71EF9467700293401 /* TestimonyDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestimonyDetailViewController.swift; sourceTree = "<group>"; };
 		834A85AA1EF95FBD00293401 /* Testi.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Testi.swift; sourceTree = "<group>"; };
 		834A85AB1EF95FBD00293401 /* TestiDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestiDetailViewController.swift; sourceTree = "<group>"; };
@@ -129,6 +131,14 @@
 				836A2FCE1F0A7801000E4FDC /* YoutubeViewController.swift */,
 			);
 			name = Resource;
+			sourceTree = "<group>";
+		};
+		832FF1F61F0E4CD90034476F /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				832FF1F71F0E4CFA0034476F /* AbyssinicaSIL-R.ttf */,
+			);
+			name = Font;
 			sourceTree = "<group>";
 		};
 		834A85A91EF95FA100293401 /* TestimonySide */ = {
@@ -234,6 +244,7 @@
 		83D6BA8F1EF56E9800F178B4 /* ismic */ = {
 			isa = PBXGroup;
 			children = (
+				832FF1F61F0E4CD90034476F /* Font */,
 				8310A18F1EFAA4FB004DA243 /* Resource */,
 				834A85A91EF95FA100293401 /* TestimonySide */,
 				83BC37C91EF63EF000BD5367 /* HomeSegmented */,
@@ -325,6 +336,7 @@
 				832DC61A1EF577EF00A97F55 /* GoogleService-Info.plist in Resources */,
 				83D6BA981EF56E9800F178B4 /* Assets.xcassets in Resources */,
 				83D6BA961EF56E9800F178B4 /* Main.storyboard in Resources */,
+				832FF1F81F0E4D2E0034476F /* AbyssinicaSIL-R.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
